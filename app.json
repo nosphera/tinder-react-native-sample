@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "tinder-swipe",
-    "description": "No description",
-    "slug": "snack-HyOHWjuFV",
+    "name": "tinder-sample",
+    "description": "Teste de implemntação do swipe do tinder",
+    "slug": "tinder-like",
     "privacy": "unlisted",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "48.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
@@ -22,7 +22,14 @@
       ]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+    },
+    "android": {
+      "package": "com.sample.tinder.nosphera",
+      "runtimeVersion": "1.0.0"
     }
   }
 }
